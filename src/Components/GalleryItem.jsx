@@ -25,9 +25,9 @@ function RatingStars({ rating }) {
 
   for (let i = 0; i < MAX_RATING; i++) {
     if (i < rating) {
-      res.push(true);
+      res.push(1);
     } else {
-      res.push(false);
+      res.push(0);
     }
   }
 
